@@ -16,5 +16,6 @@ function showEmojis(count = emojiCodes.length) {
         <p>${emojiCodes[i]}</p> 
         </section>`)
     }
-    $gallery.innerHTML = 
+    $gallery.innerHTML = $emojiCards.join('')
 }
+showEmojis()
